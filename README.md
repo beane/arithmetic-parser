@@ -3,7 +3,7 @@
 `ruby parser.rb '3 / ( 8 - 11 )'` etc. Just make sure there's a space between every token (number, operator, or parenthesis).
 
 ## Notes
-- parser understands the tokens '+', '-', '*', '/', '^', '**', '(', and ')'
+- parser understands the tokens `+`, `-`, `*`, `/`, `^`, `**`, `(`, and `)`
 - all tokens (including parentheses!) must be seperated from all other tokens by whitespace
     - legal: `( 9 + 6 ) ^ 33 - 0`
     - illegal: `(9+6)^33-0`
